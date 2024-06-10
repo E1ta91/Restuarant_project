@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edsie's Comfort</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <img id="logo" src="./assets/logos/edsie-high-resolution-logo-transparent.png"  alt="edsie">
+        <div id="nav-links">
+             <span>Home</span>
+             <span>Menu</span>
+             <span>Reservation</span>
+             <span>Gallery</span>
+             <span>About</span>
+             <span>Blog</span>
+             <span>Contact</span>
+        </div>
+    </nav>
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="welcome" class="courgette-regular">Welcome to</span>
+                <span id="eatery" class="poppins-bold">Edsie's Place</span>
+            </header>
+            <button class="menu-button">LOOK MENU</button>
+        </div>
+    </section>
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+                <span class="courgette-regular">Italian Restaurant</span>
+                <span class="poppins-bold">WELCOME</span>
+            </div>
+            <p>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed <br>fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac </br>facilisis ligula sem id neque.</p>
+        <div id="about-link">
+           <span>
+            <a href="">OUR STORY  <i class="fa-solid fa-arrow-right"></i></a>
+           </span>
+           </div>
+        </div>
+        <div id="about-image">
+            <img src="./assets/images/pexels-valeriya-1860208.jpg" alt="about image">
+        </div>
+    </section>
+    <section id="discover">
+        <div class="header-intro" >
+        <span class="courgette-regular"> Discover</span >
+        <span class="poppins-bold">Edsie's Place </span>
+        </div>
+        <div class="flex-container">
+            <div class="flex-items">
+                <img src="./assets/images/rest 2.jpg" alt="rest">
+
+            <span>
+                  <a href=""><h4>romantic restaurant</h4></a>  
+            </span>
+               <p id="">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+               <span class="discover-link-text"><a href="">LEARN MORE   <i class="fa-solid fa-arrow-right"></i></a></span>
+            </div>
+
+            <div class="flex-items">
+                <img src="./assets/images/delicious food 2.jpg" alt="food">
+                <a  href="">
+                    <h4>delicious food</h4> 
+                </a>
+                <p>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+                 <span class="discover-link-text"><a href="">LEARN MORE   <i class="fa-solid fa-arrow-right"></i></a></span>
+            </div>
+
+            <div class="flex-items">
+                <img src="./assets/images/red wines 2.jpg" alt="wine">
+                <a href="">
+                    <h4>red wine loves you</h4>
+                    
+                </a>
+                <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                <span class="discover-link-text"> <a href="">LEARN MORE  <i class="fa-solid fa-arrow-right"></i></a></span>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="menu">
+        <div class="sub-header">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">OUR MENU</span>
+        </div>
+
+        <div class=grid-container> 
+
+        <div class="group1">
+          <img src="./assets/images/lunch3(1).jpg" alt="lunch">
+         </div> 
+        <div class="group1">
+          <img  src="./assets/images/dinner4.jpg" alt="dinner">
+        </div>
+        <div class="group3">
+          <img   src="./assets/images/drinks2.jpg" alt="drink">
+        </div>
+        <div class="group3">
+          <img  src="./assets/images/starter2.jpg" alt="starter">
+        </div>
+        <div class="group2">
+          <img  src="./assets/images/happy-hour2.jpg" alt="happy-hour">
+        </div>
+        <div class="group3" >
+          <img src="./assets/images/desset2.jpg" alt="desset">
+          </div>
+        </div>
+         </section>
+
+    <section id="video-sec">
+        <video id="video" autoplay muted loop src="./assets/images/discover videos.mp4"></video>
+
+        <div id="video-overlay">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold">OUR VIDEO </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div id="section1">
+            <div class="sub-header">
+                <span class="courgette-regular">Reservation</span>
+                <span class="poppins-bold">BOOK TABLE</span>
+            </div>
+            <form id="form">
+                <div id="input-grid">
+                    <span class="form-item">
+                        <label for="date"> Date</label>
+                        <input id="date" type="date">
+                    </span>
+                    <span class="form-item">
+                        <label for="name"> Name</label>
+                        <input id="name" type="text">
+                    </span>
+                    <span class="form-item">
+                        <label for="time"> Time</label>
+                        <input id="time" type="time">
+                    </span>
+                    <span class="form-item">
+                        <label for="phone"> Phone</label>
+                        <input id="phone" type="number">
+                    </span>
+                    <span class="form-item">
+                            <label for="people"> People</label>
+                            <input id="people" type="text">
+                     </span>
+                      <span class="form-item">
+                            <label for="email"> Email</label>
+                            <input id="email" type="email">
+                        </span>
+
+                </div>
+                <div id="button">
+                    <button id="btn">Book Table</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="reservation-image">
+            <img src="./assets/images/bookingtable2.jpg" alt="reservation-image">
+        </div>
+        </section>
+
+<section>reviews goes her</section>
+
+<section id="reviews">
+    <div class="sub-header">
+        <span class="courgette-regular">Latest News</span>
+        <span class="poppins-bold">The Blog</span>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-items">
+            <img src="./assets/images/bestplace.webp" alt="best">
+
+        <span>
+              <a href=""><h4>Best Places For Wine</h4></a>  
+        </span>
+           <p id="">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+           <span class="discover-link-text"><a href="">CONTINUE READING <i class="fa-solid fa-arrow-right"></i></a></span>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-items">
+                <img src="./assets/images/eggs.webp" alt="eggs">
+    
+            <span>
+                  <a href=""><h4>Eggs and Cheese</h4></a>  
+            </span>
+               <p id="">Duis elementum, risus sit amet lobortis nunc justo condimentum ligula, vitae feugiat</p>
+               <span class="discover-link-text"><a href="">CONTINUE READING <i class="fa-solid fa-arrow-right"></i></a></span>
+            </div>
+
+            <div class="flex-items">
+                <img src="./assets/images/wedding.webp" alt="wedding">
+                <a href="">
+                    <h4>STYLE THE WEDDING PARTY</h4>
+                    
+                </a>
+                <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum..</p>
+                <span class="discover-link-text"> <a href="">CONTINUE READING <i class="fa-solid fa-arrow-right"></i></a></span>
+            </div>
+
+
+
+</section>
+
+
+
+    <section>
+        footer goes here
+    </section>
+</body>
+</html>
