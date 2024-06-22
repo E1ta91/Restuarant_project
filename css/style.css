@@ -31,10 +31,10 @@ nav{
   z-index: 100;
 }
 
-nav{
+/* nav{
   background-color: brown;
   background-attachment: scroll;
-  /* background-size: cover; */
+  background-size: cover;
   z-index: 80;
   padding: auto;
   background-repeat: repeat;
@@ -43,7 +43,7 @@ nav{
   background-clip: border-box;
   
   
-}
+} */
 
 #nav-links{
     display: flex; 
@@ -214,10 +214,7 @@ header{
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: end;
-  row-gap: 90%;
-  padding: 30px 0px 120px;
+ 
   
 }
 
@@ -231,7 +228,7 @@ header{
 
 .flex-container img{
   width: 100%;
-  height: auto;
+  /* height: auto; */
 
 }
 
@@ -249,7 +246,7 @@ row-gap: 10px;
   letter-spacing: 3px;
   line-height: 24.2px;
   font-weight: 50;
-  margin: 30px 0px 10px;
+  /* margin: 30px 0px 10px; */
   
 }
 
@@ -326,11 +323,57 @@ color: red;
 height: 250px;
 }
 
+.review-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-container p{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  padding: 10px;
+  font-family: "Montserrat";
+  max-width: 890px;
+  line-height: 30.6px;
+}
+
+.customer-details{
+  letter-spacing: 1px;
+  line-height: 20.4px;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+
+.circular-image{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid red;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+.circular-image img{
+  width: 100%;
+  height: auto;
+}
+
+.review-stars{
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+
 #video-sec{
   width: 100vw;
   height: 60vh;
   position:relative;
-  
+  /* margin-top: 30px; */
+  /* padding-top: 20px; */
 }
 
 #video{
@@ -452,5 +495,25 @@ height: 250px;
 .flex-items :hover img{
   transform: scale(1.5);
 }
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  width: 100vw;
+  height: 40vh;
+}
+
+#social-icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+
+
 
 

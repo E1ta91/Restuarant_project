@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edsie's Comfort</title>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href= "https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" >
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+
 </head>
 <body>
     <nav>
@@ -20,6 +23,7 @@
              <span>About</span>
              <span>Blog</span>
              <span>Contact</span>
+        
         </div>
     </nav>
     <section id="hero">
@@ -115,6 +119,87 @@
         </div>
          </section>
 
+         <section>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="sub-header">
+                    <span class="courgette-regular">Customers Say</span>
+                    <span class="poppins-bold">Reviews</span>
+                </div>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                <div class="review-container">
+                 <div class="circular-image">
+                    <img src="./assets/images/review_image1.webp" alt="image1">
+                </div>
+                <p>
+                “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
+                </p>
+                <div class="review-stars">
+                    <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                    <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                    <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                    <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                    <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                </div>
+                <span class="customer-details">
+                    MARIE SIMMONS - NEW YORK
+                </span>
+                </div>
+            </div>
+             
+                <div class="swiper-slide">
+             <div class="review-container">
+                <div class="circular-image">
+                <img src="./assets/images/review_image2.webp" alt="image2">
+               </div>
+               <p>
+               “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
+                 </p>
+               <div class="review-stars">
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+               </div>
+               <span class="customer-details">
+                   MARIE SIMMONS - NEW YORK
+               </span>
+               </div>
+            </div>
+           
+            <div class="swiper-slide">
+            <div class="review-container">
+                <div class="circular-image">
+                    <img src="./assets/images/review_image3.webp" alt="image3">
+               </div>
+               <p>
+              “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
+               </p>
+
+               <div class="review-stars">
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+                   <i class="fa-solid fa-star" style="color: #e70814;"></i>
+               </div>
+               <span class="customer-details">
+                   MARIE SIMMONS - NEW YORK
+               </span>
+               </div>
+                 </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+             
+            </div>
+        </section>
+
     <section id="video-sec">
         <video id="video" autoplay muted loop src="./assets/images/discover videos.mp4"></video>
 
@@ -171,21 +256,55 @@
         </div>
         </section>
 
-<section>reviews goes her</section>
 
 <section id="reviews">
     <div class="sub-header">
         <span class="courgette-regular">Latest News</span>
         <span class="poppins-bold">The Blog</span>
     </div>
-</section>
- <section id="footer">
-        <div>
-            <h4>CONTACT US</h4>
-            <ul>
-                <li></li>
-            </ul>
+    <div class="flex-container">
+        <div class="flex-items">
+            <img src="./assets/images/rest 2.jpg" alt="rest">
+
+        <span>
+              <a href=""><h4>BEST PLACES FOR WINE</h4></a>  
+        </span>
+           <p id="">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+           <span class="discover-link-text"><a href="">LEARN MORE   <i class="fa-solid fa-arrow-right"></i></a></span>
         </div>
-    </section>
+
+        <div class="flex-items">
+            <img src="./assets/images/delicious food 2.jpg" alt="food">
+            <a  href="">
+                <h4>EGGS AND CHEESE</h4> 
+            </a>
+            <p>Duis elementum, risus sit amet lobortis nunc justo condimentum ligula, vitae feugiat</p>
+             <span class="discover-link-text"><a href="">LEARN MORE   <i class="fa-solid fa-arrow-right"></i></a></span>
+        </div>
+
+        <div class="flex-items">
+            <img src="./assets/images/red wines 2.jpg" alt="wine">
+            <a href="">
+                <h4>STYLE THE WEDDING PARTY</h4>
+                
+            </a>
+            <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+            <span class="discover-link-text"> <a href="">LEARN MORE  <i class="fa-solid fa-arrow-right"></i></a></span>
+        </div>
+    </div>
+</section>
+
+ <section id="footer">
+    <div id="social-icons">
+        <i class="fa-brands fa-instagram" style="color: #7b2999;"></i>
+        <i class="fa-brands fa-facebook" style="color: #1b61da;"></i>
+        <i class="fa-brands fa-twitter" style="color: #323362;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #2b3791;"></i>
+    </div>
+
+ <p>Copyright &copy;2024 All rights reserved | This template is made by Colorlib</p>
+ </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
